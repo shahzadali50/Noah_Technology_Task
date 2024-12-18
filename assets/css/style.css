@@ -151,6 +151,23 @@ section{
 .custom-packaging .pakage-detail{
   font-family: 'Poppins Bold' !important;
 }
+/* premium-finishes */
+.premium-finishes .text-18px{
+  padding-left: 16px;
+    font-family: "Poppins Bold";
+    float: left;
+    color: white;
+    position: relative;
+    height: 36px;
+    margin-top: -52px;
+}
+.premium-finishes .overlay img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+  transition: .3s linear;
+}
 
 /* Media Query */
 @media only screen and (max-width: 1200px) {
@@ -178,5 +195,8 @@ section{
 }
 .custom-packaging {
  padding: 30px 0px; 
+}
+.premium-finishes .overlay img {
+height: 200px !important;
 }
 }
