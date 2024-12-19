@@ -26,3 +26,19 @@ $(document).ready(function(){
     })
   
 })
+$(document).ready(function(){
+    $('.tesimonial .owl-carousel').owlCarousel({
+        loop:true,
+        margin:9,
+        nav:false,
+        autoplay: true,         // Enables autoplay
+        autoplayTimeout: 2000,  // Delay between transitions (in milliseconds)
+        autoplayHoverPause: true,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    })
+  
+})
