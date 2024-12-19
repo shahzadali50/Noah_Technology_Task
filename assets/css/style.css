@@ -129,24 +129,54 @@ font-size: 14px
 font-size: 12px;
 }
 
-/* header */
+/* top-header */
+header .header-logo{
+  height: 50px;
+}
+header .top-header-logo{
+  height: 70px;
+}
+header .top-icons{
+  width: 30px;
+  height: 30px;
+  background: #fab900 ;
+  border-radius: 7px;
+}
+header .top-links{
+  font-family: 'Poppins medium';
+  color: #212529;
+}
+header .top-links-div{
+  width: 140px;
+}
+.top-header .quote {
+  width: 130px;
+}
 
-.header {
+/* bottom-header */
+
+.bottom-header {
   background: #4b4b4b;
   box-shadow: 0rem 0rem rgba(0, 0, 0, 0) ;
 }
-.header .header-img {
+.bottom-header .bottom-header-img {
   height: 50px;
 }
-.header .btn-primary{
+.bottom-header .btn-primary{
   border-radius: 0px;
   color: white;
   font-family: "Poppins Bold";
   padding: 10px 25px;
 }
 
-header div.container {
-  max-width: 1300px;
+header .container {
+  max-width: 1200px ;
+}
+.bottom-header  {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1020 !important;
 }
 
 .navbar {
@@ -167,7 +197,7 @@ header div.container {
   border-radius: 0 !important;
 
 }
-.header .search-icon {
+.bottom-header .search-icon {
   padding-right: 62px;
     color: white;
     font-weight: 100;
@@ -179,7 +209,7 @@ header div.container {
   font-family: Poppins Bold;
 
 }
- .header .collapse .card{
+ .bottom-header .collapse .card{
 border-color: none;
 border-radius: 0px;
 border-radius: 0px;
@@ -509,7 +539,7 @@ object-fit: contain;
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 992px) {
-  .header .form-inline{
+  .bottom-header .form-inline{
     margin-left: 20px;
   }
   .navbar-nav li .nav-link {
