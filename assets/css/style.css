@@ -282,7 +282,148 @@ object-fit: contain;
 object-fit: contain;
 }
 
+/* footer */
+.footer {
+  background-color: #f3f3f3;
+  padding: 20px 0;
+  color: #000;
+}
+.footer .row {
+  margin: 0;
+}
+/* Footer Newsletter Section */
+.footer .newsletter {
+  background-color: #2e2e2e;
+  color: #cacaca;
+  padding-left: 10%;
+  padding-right: 3.5%;
+}
+.footer .newsletter .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer .newsletter .subtitle {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.footer .newsletter .info {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.footer .newsletter-form .form-control {
+  border: 1px solid #ccc;
+}
+.footer .newsletter-form .btn {
+  background-color: #fab900;
+  color: #fff;
+}
+
+/* Footer Section Titles */
+.footer .section-title {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: 'Poppins Bold';
+}
+
+/* Footer Links */
+.footer .footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-links li {
+  padding: 0 0;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none !important;
+}
+.footer .footer-links a {
+  font-family: 'Poppins Light';
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* Footer Contact Section */
+.footer .contact-list {
+  list-style: none;
+  padding: 0;
+}
+.footer .contact-list li {
+  margin-bottom: 10px;
+}
+.footer .contact-icon {
+  margin-right: 8px;
+  background: #fab900;
+  border-radius: 30px;
+  padding: 8px;
+  width: 29px;
+  color: #fff;
+}
+.footer .contact-text {
+  font-family: 'Poppins Light';
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* Footer Bottom */
+.footer .footer-bottom {
+  text-align: center;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.footer .follow-us {
+  margin-top: -91px;
+}
+
+.footer .follow-us span {
+  font-family: 'Poppins Bold';
+  font-size: 14px !important;
+  margin-top: 9px;
+  color: #212529 !important;
+}
+.footer .follow-us .payment {
+  font-family: 'Poppins Bold';
+  font-size: 14px !important;
+  margin-top: 9px;
+  color: #212529 !important;
+
+ 
+}
+.footer .follow-us a {
+  font-size: 16px !important;
+  color: #000;
+}
+
+/* Payment Section */
+.footer .payment p {
+  font-family: 'Poppins Bold';
+  font-size: .9rem;
+  width: 50%;
+  float: left;
+  margin-top: -30px;
+}
+
+
 /* Media Query */
+@media only screen and (min-width: 992px) {
+  .footer .follow-us span {
+    width: 6%;
+  }
+  .footer .follow-us .payment {
+    width: 33%;
+  
+   
+  }
+}
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 992px) {
@@ -302,6 +443,9 @@ font-size: 16px
 }
 .partner-block .partner-title {
 font-size: 14px;
+}
+.footer .follow-us{
+  margin-top: -40px;
 }
 
 }
@@ -324,4 +468,8 @@ height: 150px;
 .product_slider .product-title {
 font-size: 14px;
 }
+.footer .follow-us{
+  margin-top: 0px;
+}
+
 }
