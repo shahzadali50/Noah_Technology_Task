@@ -102,8 +102,8 @@ outline: none;
 }
 
 .text-48px{
-  font-size: 40px ;
-  font-family: 'Poppins Bold';
+font-size: 40px ;
+font-family: 'Poppins Bold';
 }
 .text-34px{
 font-size: 34px;
@@ -118,7 +118,7 @@ font-size: 22px
 font-size: 18px
 }
 .text-16px{
-  font-size: 16px;
+font-size: 16px;
 }
 .text-14px{
 padding: 0 10% 06px;
@@ -135,6 +135,20 @@ background-position: top right;
 background-repeat: no-repeat;
 background-size: 150px;
 padding: 20px 0 30px;
+}
+/* hero */
+.hero .client_logos {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-color: #f9f9f9;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+}
+.hero .client_logos img{
+  width: 60px;
+    height: 60px;
 }
 
 /* pattern */
@@ -178,7 +192,7 @@ cursor: pointer;
 transition: .3s linear;
 }
 .premium-finishes .overlay .debossing{
-  height:570px;
+height:570px;
 }
 /* custom-quote */
 .custom-quote{
@@ -191,81 +205,81 @@ font-family: 'Poppins Bold';
 font-size: 1.75rem;
 }
 .custom-quote .lable{
-  font-weight: 700;
+font-weight: 700;
 }
 .custom-quote .calculate{
-  width: 9%;
+width: 9%;
 }
 .custom-quote .shipping{
-  font-family: 'Poppins Bold';
+font-family: 'Poppins Bold';
 }
 .custom-quote .guarantee {
-  max-height: 344px;
-  background: #69a741;
+max-height: 344px;
+background: #69a741;
 }
 .custom-quote .shop {
-  font-family: 'Poppins Bold';
-  font-size: 1.5rem;
+font-family: 'Poppins Bold';
+font-size: 1.5rem;
 }
 /* customer-details */
 .customer-details {
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 50px;
-  padding-bottom: 50px;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 .customer-details .text-22px {
- font-family: 'Poppins Bold'
+font-family: 'Poppins Bold'
 }
 .customer-details .read-more {
-  color: black; font-weight: 700;
+color: black; font-weight: 700;
 }
 .customer-details .read-more:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 .product_slider .item img{
-  height: 250px;
+height: 250px;
 }
 .product_slider .product-title {
-  text-align: center;
-    font-size: 16px;
-    font-weight: 800;
-    color: black;
+text-align: center;
+font-size: 16px;
+font-weight: 800;
+color: black;
 }
 /* tesimonial */
 .tesimonial{
-  padding: 30px 0px 100px 0px;
+padding: 30px 0px 100px 0px;
 }
 .tesimonial .user-profile{
-  background: rgb(250 185 0);
-  padding: 11px;
-  font-size: 23px !important;
-  font-family: 'Poppins Bold';
-  color: black;
-  padding-top: 19px;
-  border-start-end-radius: 27px;
-  border-end-start-radius: 27px;
-  width: 65px !important;
-  text-align: center;
-  height: 65px !important;
+background: rgb(250 185 0);
+padding: 11px;
+font-size: 23px !important;
+font-family: 'Poppins Bold';
+color: black;
+padding-top: 19px;
+border-start-end-radius: 27px;
+border-end-start-radius: 27px;
+width: 65px !important;
+text-align: center;
+height: 65px !important;
 }
 .tesimonial .text-16px{
-  color: #333333;
+color: #333333;
 }
 .tesimonial .font-14px{
-  font-family: 'Poppins Bold';
-  color: black;
+font-family: 'Poppins Bold';
+color: black;
 }
 .tesimonial .user-message{
-  font-family: 'Poppins Bold';
-  color: black;
+font-family: 'Poppins Bold';
+color: black;
 }
 .tesimonial .review-persons{
-  height: 420px;
-  object-fit: contain;
+height: 420px;
+object-fit: contain;
 }
 .tesimonial .rating{
-  object-fit: contain;
+object-fit: contain;
 }
 
 /* Media Query */
@@ -274,9 +288,9 @@ font-size: 1.75rem;
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
-  .text-48px{
-    font-size: 35px;
-  }
+.text-48px{
+font-size: 35px;
+}
 .text-34px{
 font-size: 25px;
 }
@@ -296,18 +310,18 @@ font-size: 14px;
 padding: 30px 0px;
 }
 .text-48px{
-  font-size: 30px;
+font-size: 30px;
 }
 .premium-finishes .overlay img {
 height: 180px !important;
 }
 .custom-quote .calculate{
-  width: 16%;
+width: 16%;
 }
 .product_slider .item img{
-  height: 150px;
+height: 150px;
 }
 .product_slider .product-title {
-    font-size: 14px;
+font-size: 14px;
 }
 }
