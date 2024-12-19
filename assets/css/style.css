@@ -172,12 +172,6 @@ header .top-links-div{
 header .container {
   max-width: 1200px ;
 }
-.bottom-header  {
-  position: -webkit-sticky !important;
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 1020 !important;
-}
 
 .navbar {
   min-height: 40px;
