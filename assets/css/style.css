@@ -135,6 +135,7 @@ header .header-logo{
 }
 header .top-header-logo{
   height: 70px;
+  object-fit: contain;
 }
 header .top-icons{
   width: 30px;
