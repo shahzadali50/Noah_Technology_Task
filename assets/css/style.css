@@ -128,6 +128,83 @@ font-size: 14px
 .text-12px{
 font-size: 12px;
 }
+
+/* header */
+
+.header {
+  background: #4b4b4b;
+  box-shadow: 0rem 0rem rgba(0, 0, 0, 0) ;
+}
+.header .header-img {
+  height: 50px;
+}
+.header .btn-primary{
+  border-radius: 0px;
+  color: white;
+  font-family: "Poppins Bold";
+  padding: 10px 25px;
+}
+
+header div.container {
+  max-width: 1300px;
+}
+
+.navbar {
+  min-height: 40px;
+  padding: 0px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+.nav-item:hover {
+  background: #fab900 !important;
+}
+.dropdown-menu {
+  min-width: 200px !important;
+  padding: 5px 10px;
+  border: 0 solid rgba(0, 0, 0, .15) !important;
+  border-radius: 0 !important;
+
+}
+.header .search-icon {
+  padding-right: 62px;
+    color: white;
+    font-weight: 100;
+    font-size: 27px;
+}
+.dropdown-toggle::after{
+  color: #fab900;
+  font-weight: bolder;
+  font-family: Poppins Bold;
+
+}
+ .header .collapse .card{
+border-color: none;
+border-radius: 0px;
+border-radius: 0px;
+}
+.navbar-dark .navbar-toggler {
+ border-color: white;
+}
+
+.navbar-nav li .nav-link {
+  color: #ffffff !important;
+    font-family: "Poppins Bold";
+    padding: 12px 20px !important;
+    font-size: 14px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown-menu {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
 section{
 background-color: #ffffff;
 background-color: linear-gradient(to right, #fff0e6 1%, #ffdbc4 100%);
@@ -136,7 +213,12 @@ background-repeat: no-repeat;
 background-size: 150px;
 padding: 20px 0 30px;
 }
+
+
 /* hero */
+.hero {
+  padding: 0px 0px;
+}
 .hero .client_logos {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -427,6 +509,13 @@ object-fit: contain;
 @media only screen and (max-width: 1200px) {
 }
 @media only screen and (max-width: 992px) {
+  .header .form-inline{
+    margin-left: 20px;
+  }
+  .navbar-nav li .nav-link {
+
+    padding: 7px 20px !important;
+}
 }
 @media only screen and (max-width: 768px) {
 .text-48px{
